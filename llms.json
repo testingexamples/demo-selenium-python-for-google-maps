@@ -1,0 +1,49 @@
+{
+  "name": "Demo Selenium Python for Google Maps",
+  "summary": "A beginner-friendly walkthrough of Selenium WebDriver browser automation in Python, teaching locator strategies and URL-based assertions for Google Maps. Must never be executed against live Google Maps.",
+  "description": "This repo demonstrates Selenium WebDriver browser automation testing with Python, using Google Maps as the example. Because Google's Terms of Service restrict automated querying of its services, the code teaches patterns only: a page title check, a place search located by accessible aria-label, and a zoom-in check that reads the map's own embedded @lat,lng,zoomz URL state rather than inspecting the canvas-rendered map, all as correct but never-to-be-run Python/Selenium code.",
+  "repository": "https://github.com/testingexamples/demo-selenium-python-for-google-maps/",
+  "license": "GPL-2.0-or-later",
+  "sections": [
+    {
+      "title": "Docs",
+      "links": [
+        {
+          "title": "README",
+          "url": "./README.md",
+          "description": "Install, run (do-not-run caution), and troubleshooting instructions."
+        },
+        {
+          "title": "Spec",
+          "url": "./spec/index.md",
+          "description": "Single source of truth for the exact three checks and selectors."
+        },
+        {
+          "title": "Citation",
+          "url": "./CITATION.cff",
+          "description": "How to cite this software."
+        }
+      ]
+    },
+    {
+      "title": "Source",
+      "links": [
+        {
+          "title": "demo.py",
+          "url": "./src/demo.py",
+          "description": "The Selenium WebDriver demo script itself (read-only reference; do not execute against live Google Maps)."
+        }
+      ]
+    },
+    {
+      "title": "Optional",
+      "links": [
+        {
+          "title": "AGENTS.md",
+          "url": "./AGENTS.md",
+          "description": "Instructions for AI coding agents working in this repo, including the non-negotiable do-not-run policy."
+        }
+      ]
+    }
+  ]
+}

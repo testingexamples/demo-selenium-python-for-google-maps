@@ -1,0 +1,21 @@
+# Demo Selenium Python for Google Maps
+
+> A beginner-friendly walkthrough of Selenium WebDriver browser automation in
+> Python, teaching locator strategies and URL-based assertions for Google
+> Maps. Google's Terms of Service restrict automated querying of its
+> services — this code must never be executed against live Google Maps.
+
+## Docs
+
+- [README](./README.md): Install, run (do-not-run caution), and troubleshooting instructions.
+- [Spec](./spec/index.md): Single source of truth for the exact three checks and selectors.
+- [Citation](./CITATION.cff): How to cite this software.
+
+## Source
+
+- [demo.py](./src/demo.py): The Selenium WebDriver demo script itself (read-only reference; do not execute against live Google Maps).
+
+## Optional
+
+- [AGENTS.md](./AGENTS.md): Instructions for AI coding agents working in
+  this repo, including the non-negotiable do-not-run policy.

@@ -1,0 +1,17 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "Cardiff",
+        "chromedriver",
+        "lng",
+        "pycache",
+        "venv",
+        "webdriver",
+        "xattr"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
