@@ -3,7 +3,7 @@
   "summary": "A beginner-friendly walkthrough of Selenium WebDriver browser automation in Python, teaching locator strategies and URL-based assertions for Google Maps. Must never be executed against live Google Maps.",
   "description": "This repo demonstrates Selenium WebDriver browser automation testing with Python, using Google Maps as the example. Because Google's Terms of Service restrict automated querying of its services, the code teaches patterns only: a page title check, a place search located by accessible aria-label, and a zoom-in check that reads the map's own embedded @lat,lng,zoomz URL state rather than inspecting the canvas-rendered map, all as correct but never-to-be-run Python/Selenium code.",
   "repository": "https://github.com/testingexamples/demo-selenium-python-for-google-maps/",
-  "license": "GPL-2.0-or-later",
+  "license": "MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause",
   "sections": [
     {
       "title": "Docs",
